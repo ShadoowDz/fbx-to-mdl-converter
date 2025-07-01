@@ -1,0 +1,66 @@
+# FBX to MDL Converter Requirements
+# Core dependencies for Counter-Strike 1.6 model conversion
+
+# Numerical computing and array operations
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Image processing and texture handling
+Pillow>=8.3.0
+opencv-python>=4.5.0
+
+# 3D data processing
+trimesh>=3.12.0
+numpy-stl>=2.16.0
+
+# FBX SDK (requires manual installation)
+# Download from: https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-3
+# Note: FBX SDK Python bindings must be installed separately
+
+# Data structures and utilities
+dataclasses>=0.6; python_version<"3.7"
+typing_extensions>=4.0.0
+pathlib2>=2.3.0; python_version<"3.4"
+
+# File format handling
+struct>=1.0.0  # Built-in, but listed for clarity
+json>=2.0.0    # Built-in, but listed for clarity
+
+# Logging and debugging
+colorlog>=6.6.0
+tqdm>=4.62.0
+
+# Testing and validation
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# GUI dependencies (optional)
+tkinter>=8.6  # Usually built-in with Python
+PyQt5>=5.15.0  # Alternative GUI framework
+
+# Development tools
+black>=21.7b0
+flake8>=3.9.0
+mypy>=0.910
+
+# Documentation (optional)
+sphinx>=4.1.0
+sphinx-rtd-theme>=0.5.0
+
+# Performance profiling (optional)
+cProfile  # Built-in
+memory_profiler>=0.58.0
+
+# Mathematical operations
+math  # Built-in
+random  # Built-in
+
+# Additional utilities
+argparse  # Built-in
+sys  # Built-in
+os  # Built-in
+time  # Built-in
+datetime  # Built-in
+shutil  # Built-in
+glob  # Built-in
+re  # Built-in
